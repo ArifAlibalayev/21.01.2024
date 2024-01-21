@@ -100,3 +100,21 @@
   
   }
   
+
+  @media only screen and (max-width:500px) {
+    .aboutUs{
+        width: 100% !important;
+    }
+    .quickLinks{
+        width: 100% !important;
+    }
+    .followUs{
+        width: 100% !important;
+
+    }
+    .featuredProduct{
+        width: 100% !important;
+
+    }  
+}
+      

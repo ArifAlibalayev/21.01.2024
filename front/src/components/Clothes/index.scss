@@ -116,3 +116,9 @@
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .clothesTitle{
+    width: 100% !important;
+  }
+}
