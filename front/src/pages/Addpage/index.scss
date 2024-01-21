@@ -1,0 +1,96 @@
+#Addpage {
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    padding: 40px 0;
+  }
+  max-width: 60%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .formCSS {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    input {
+      padding: 10px 20px;
+    }
+    button {
+      width: 100px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background-color: #f16821;
+      color: white;
+      transition: 0.2s linear;
+      &:hover {
+        background-color: #bd4204;
+      }
+    }
+  }
+  .sortSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sortSearchButtons{
+      display: flex;
+      gap: 10px;
+      input{
+        border-radius: 10px;
+        outline: none;
+      }
+      button {
+      border-radius: 10px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        outline: none;
+        background-color: #f16821;
+        color: white;
+        transition: 0.2s linear;
+        &:hover {
+          background-color: #bd4204;
+        }
+      }
+    }
+    
+  }
+}
+
+table {
+    button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: #f16821;
+        color: white;
+        transition: 0.2s linear;
+        &:hover {
+          background-color: #bd4204;
+        }
+      }
+  margin: 40px auto;
+  td,
+  #customers th {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  th {
+   padding: 20px;
+    text-align: left;
+    background-color: #f16821;
+    text-align: center;
+    color: white;
+  }
+}

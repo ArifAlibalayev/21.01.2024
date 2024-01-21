@@ -1,0 +1,73 @@
+#Hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  .overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: black, $alpha: 0.4);
+  }
+  .heroTitle {
+    color: white;
+    z-index: 50;
+    width: 40%;
+    max-width: 60%;
+    margin: auto;
+
+    .heroButtons {
+      display: flex;
+      gap: 20px;
+      margin: 20px 0;
+      .shopNowButton {
+        font-weight: 700;
+        width: 200px;
+        height: 60px;
+        border: 2px solid white;
+        outline: none;
+        background-color: transparent;
+        color: white;
+        transition: 0.2s linear;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+      .membershipButton {
+
+        font-weight: 700;
+        width: 240px;
+        height: 60px;
+        border: 2px solid white;
+        outline: none;
+
+        background-color: white;
+        color: black;
+        transition: 0.2s linear;
+        &:hover {
+          background-color: transparent;
+          color: white;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 80px;
+      line-height: 96px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}

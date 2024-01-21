@@ -1,0 +1,58 @@
+#WeOfferServices{
+    max-width: 60%;
+    margin: 15% auto;
+    min-height: 50vh;
+    .weOfferTitle{
+        text-align: center;
+        span{
+            color: #808080;
+            font-size: 16px;
+            line-height: 27.2px;
+        }
+        h2{
+            font-size: 40px;
+            line-height: 48px;
+        }
+    }
+    .weOfferWrapper{
+        margin: 5% 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        .weOfferCard{
+        max-width: 300px;
+            display: flex;
+            gap: 25px;
+            .weOfferCardIcon{
+                i{
+                    color: #f16821;
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+            }
+            .weOfferCardContent{
+                h2{
+                    font-size: 20px;
+                    color: #808080;
+                    line-height: 24px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #808080;
+                    line-height: 27.2px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: #f16821;
+                    line-height: 27.2px;
+                }
+            }
+        }
+    }
+}
+
+button{
+    cursor: pointer;
+}

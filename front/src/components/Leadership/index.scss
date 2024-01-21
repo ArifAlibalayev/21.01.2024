@@ -1,0 +1,81 @@
+#Leadership {
+  max-width: 60%;
+  margin: 10% auto;
+  min-height: 60vh;
+  .leadershipTitle {
+    text-align: center;
+margin: 5% 0;
+span{
+    color: #adb5bd;
+    font-size: 13px;
+    line-height: 15.6px;
+}
+h2{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+  }
+  .leadershipWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    .leadershipCard {
+        img{
+            width: 80%;
+        }
+      padding: 15px;
+      max-width: 350px;
+      min-height: 150px;
+      .leadershipSocials {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        i {
+          display: grid;
+          place-content: center;
+          color: white;
+          background-color: #777777;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          font-size: 13px;
+        }
+      }
+      h3 {
+        padding: 10px 0;
+        color: #808080;
+        font-size: 18px;
+        line-height: 27.2px;
+      }
+      span {
+        padding: 10px 0;
+        color: #cccccc;
+        font-size: 12px;
+        line-height: 27.2px;
+      }
+      p {
+        padding: 10px 0;
+        color: #808080;
+        font-size: 16px;
+        line-height: 27.2px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:1300px) {
+  .leadershipWrapper{
+      grid-template-columns: 1fr 1fr !important;
+
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .leadershipWrapper{
+      grid-template-columns: 1fr !important;
+padding: 60px;  }
+
+}
